@@ -1,10 +1,18 @@
 Script started on 2020-03-14 10:24:20+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="19"]
-]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e ""\"e"["4"4";"3"3"m" "F"o"r"e"g"r"a"u"n"d"[1Pund"ound"[C[C[C "i"n" "y"e"l"l"o"w"," "B"a"c"k"g"r"o"u"n"d" "i"n" " [A]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb"l"u"e" "\"e"["4"9";"3"9"m"
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e ""\"e"["4"4";"3"3"m" "F"o"r"e"g"r"a"u"n"d"[1Pund"ound"[C[C[C "i"n" "y"e"l"l"o"w"," "B"a"c"k"g"r"o"u"n"d" "i"n" " [A
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb"
+l"u"e" "\"e"["4"9";"3"9"m"
 [44;33m Foreground in yellow, Background in blue [49;39m
-]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e "\e[44;33m Foreground in yellow, Background in blue \e[49;39m"[A]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e ''[K[K""N"o"r"m"a"l" "\"e"["1"m"B"o"l"d" "\"e"["0";"4"m"U"n"d"e"r"l"i"n"e"d" "\"e"["0";"5"m"B"l"i"n" [A]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck" "\"e"["0"m"N"o"r"m"a"l"
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e "\e[44;33m Foreground in yellow, Background in blue \e[49;39m"[A
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e ''[K[K""N"o"r"m"a"l" "\"e"["1"m"B"o"l"d" "\"e"["0";"4"m"U"n"d"e"r"l"i"n"e"d" "\"e"["0";"5"m"B"l"i"n" [A
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck"
+ "\"e"["0"m"N"o"r"m"a"l"
 Normal [1mBold [0;4mUnderlined [0;5mBlink [0mNormal
-]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e :[K""\"e"["4"4";"3"3"m" "B"l"u"e"B"g" "Y"e"l"l"o"w"B"g" "\"e"["1"m"B"o"l"d" "\"["[1P"e"["0";"4"4"-"[1P";"3"3" [A]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;"4"m"U"n"d"e"r"l"i"n"e"d"\"e"["0";"4"4";"3"3";"5"m" "B"l"i"n"k" "\"e"["0";"4"4";"3"3"m"N"o"r"m"a"l"\"e"["4"9";"3"9"m"
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e :[K""\"e"["4"4";"3"3"m" "B"l"u"e"B"g" "Y"e"l"l"o"w"B"g" "\"e"["1"m"B"o"l"d" "\"["[1P"e"["0";"4"4"-"[1P";"3"3" [A
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;"
+4"m"U"n"d"e"r"l"i"n"e"d"\"e"["0";"4"4";"3"3";"5"m" "B"l"i"n"k" "\"e"["0";"4"4";"3"3"m"N"o"r"m"a"l"\"e"["4"9";"3"9"m"
 [44;33m BlueBg YellowBg [1mBold [0;44;33;4mUnderlined[0;44;33;5m Blink [0;44;33mNormal[49;39m
 ]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ date +""T"o"d"a"y" "i"s" "[C%d", "%B", "%Y
 Today is 14, сакавіка, 2020
@@ -44,7 +52,8 @@ Normal [5mBlink [25mNormal
 ]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ echo -e "\e[1;31;42m Bold and RedFg and GreenBg \e[0m"
 [1;31;42m Bold and RedFg and GreenBg [0m
 ]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ man printf
-[?1049h[22;0;0t[?1h=PRINTF(1)                        User Commands                       PRINTF(1)[m
+[?1049h[22;0;0t[?1h=
+PRINTF(1)                        User Commands                       PRINTF(1)[m
 [m
 [1mNAME[0m[m
        printf - format and print data[m
@@ -62,8 +71,10 @@ Normal [5mBlink [25mNormal
               output version information and exit[m
 [m
        FORMAT controls the output as in C printf.  Interpreted sequences are:[m
-[7m Manual page printf(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ man 3 printf
-[?1049h[22;0;0t[?1h=PRINTF(3)                  Linux Programmer's Manual                 PRINTF(3)[m
+[7m Manual page printf(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ man 3 printf
+[?1049h[22;0;0t[?1h=
+PRINTF(3)                  Linux Programmer's Manual                 PRINTF(3)[m
 [m
 [1mNAME[0m[m
        printf,  fprintf,  dprintf,  sprintf,  snprintf, vprintf, vfprintf, vd‐[m
@@ -81,8 +92,10 @@ Normal [5mBlink [25mNormal
        [1m#include[0m [1m<stdarg.h>[0m[m
 [m
        [1mint[0m [1mvprintf(const[0m [1mchar[0m [1m*[0m[4mformat[24m[1m,[0m [1mva_list[0m [4map[24m[1m);[0m[m
-[7m Manual page printf(3) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ man -a printf
-[?1049h[22;0;0t[?1h=PRINTF(1)                        User Commands                       PRINTF(1)[m
+[7m Manual page printf(3) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ man -a printf
+[?1049h[22;0;0t[?1h=
+PRINTF(1)                        User Commands                       PRINTF(1)[m
 [m
 [1mNAME[0m[m
        printf - format and print data[m
@@ -100,9 +113,11 @@ Normal [5mBlink [25mNormal
               output version information and exit[m
 [m
        FORMAT controls the output as in C printf.  Interpreted sequences are:[m
-[7m Manual page printf(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t--Man-- след: printf(3) [ просм (ввод) | пропуск (Ctrl-D) | выход (Ctrl-C) ]
+[7m Manual page printf(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t--Man-- след: printf(3) [ просм (ввод) | пропуск (Ctrl-D) | выход (Ctrl-C) ]
 info printf           
-[?1049h[22;0;0t[?1h=PRINTF(3)                  Linux Programmer's Manual                 PRINTF(3)[m
+[?1049h[22;0;0t[?1h=
+PRINTF(3)                  Linux Programmer's Manual                 PRINTF(3)[m
 [m
 [1mNAME[0m[m
        printf,  fprintf,  dprintf,  sprintf,  snprintf, vprintf, vfprintf, vd‐[m
@@ -120,7 +135,8 @@ info printf           
        [1m#include[0m [1m<stdarg.h>[0m[m
 [m
        [1mint[0m [1mvprintf(const[0m [1mchar[0m [1m*[0m[4mformat[24m[1m,[0m [1mva_list[0m [4map[24m[1m);[0m[m
-[7m Manual page printf(3) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ ^V[Kinfo printf
+[7m Manual page printf(3) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ ^V[Kinfo printf
 [?1h=[?1049h[22;0;0t[H[2J[19;1HДобро пожаловать в Info версии 6.6. H — справка, h — обучающее руководство.[19;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[19;1HДобро пожаловать в Info версии 6.6. H — справка, h — обучающее руководство.[18;1H[7m-----Info: (coreutils)printf invocation, 124 lines --Top------------------------[0m[1;1HNext: yes invocation,  Prev: echo invocation,  Up: Printing text[3;1H15.2 ‘printf’: Format and print data[4;1H====================================[6;1H‘printf’ does formatted printing of text.  Synopsis:[8;1H     printf FORMAT [ARGUMENT]...[10;1H   ‘printf’ prints the FORMAT string, interpreting ‘%’ directives and[11;1H‘\’ escapes to format numeric and string arguments in a way that is[12;1Hmostly similar to the C ‘printf’ function.  [4m*Note ‘printf’ format[24m[K[13;1H[4mdirectives[24m: (libc)Output Conversion Syntax, for details.  The[K[14;1Hdifferences are listed below.[16;1H   Due to shell aliases and built-in ‘printf’ functions, using an[17;1Hunadorned ‘printf’ interactively or in a script may get you different[1;1H[1;1H[19;1H[K[19;1H[K[?1l>[?1049l[23;0;0t[19;1H[K[?1l>[?1049l[23;0;0t]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ whatis printf
 printf (3)           - formatted output conversion
 printf (1)           - format and print data
