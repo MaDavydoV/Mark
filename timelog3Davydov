@@ -1,0 +1,210 @@
+Script started on 2020-03-17 09:45:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ su root
+Пароль: 
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# su f[K[K[K[Kuseradd -e 2020-06-01 - f[K[Kf 3 friemd[K[Knd
+useradd: группа friend существует — для добавления в неё этого пользователя, используйте -g.
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# useradd -e 2020-06-01 -f 3 friend[C[1PriendFriend
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# cl[K[Ksuc[K friemd[K[Knd
+su: пользователь friend не существует
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# su Friend
+$ passwd
+Смена пароля для Friend.
+Действующий пароль: 
+passwd: Ошибка при операциях с маркером проверки подлинности
+passwd: пароль не изменён
+$ passwd
+Смена пароля для Friend.
+Действующий пароль: 
+Новый пароль : 
+Повторите ввод нового пароля : 
+Bad: new and old password must differ by more than just case
+Новый пароль : 
+Повторите ввод нового пароля : 
+passwd: пароль успешно обновлён
+$ clear
+[H[2J[3J$ exit
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# chage -E 2-[K020-08-14 fr[Kriend
+chage: пользователь «friend» не существует в /etc/passwd
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clearhage -E 2020-08-14 friend[1PriendFriend
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# claer\\\[K[K[K[K[K[Kear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# chfn -f MA[Karakesh[K[K[K[K[Kkushka -r 69 -w 666-666-[K[K[K[K[K-66-66 -h 22 8-28[K2[K[K328-13 -o friend
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -l guest Friend
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -d /home/guest guest
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -d /home/guest guest\\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K guest
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -d /home guest/guest guest
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd guests
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# _f[K[K-A[K[Kgpasswd -A guest guests
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# useradd student
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# gpasswd -a student guests
+Добавление пользователя student в группу guests
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# grupmodoupmod[C[C[C[C[C -n friends guests
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupdel users[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuserdel guest
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# userdel guest-guestrguest guest[1Pguest[1Pguest[1Pguest[Kuserdel -r student
+userdel: почтовый ящик student (/var/mail/student) не найден
+userdel: домашний каталог пользователя student (/home/student) не найден
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# userdel student
+userdel: пользователь «student» не существует
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# cleat
+
+Команда «cleat» не найдена. Возможно, вы имели в виду:
+
+  command 'cheat' from snap cheat (v3.6.0.build.0)
+  command 'claat' from snap claat (v0.7.1)
+  command 'clear' from deb ncurses-bin (6.1+20190803-1ubuntu1)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# claer[K[K[K[Klear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# exit[K[K[K[Ksu [K[K[Kexir[Kt
+exit
+]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ sud o[K[Ko cat shadow
+[sudo] пароль для mark: 
+cat: shadow: Нет такого файла или каталога
+]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ cd /etc
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo cat shadow
+root:$6$q0ogKQzHmDlt0Ao9$bumL/mntwzWY/4Vkf/TFNV9Ra3063eAl3DwQu4Tm19kq4LSwtRh.kd9O0oCxtMAiq5DFA5MfJcH9sz5Jg36XW.:18338:0:99999:7:::
+daemon:*:18186:0:99999:7:::
+bin:*:18186:0:99999:7:::
+sys:*:18186:0:99999:7:::
+sync:*:18186:0:99999:7:::
+games:*:18186:0:99999:7:::
+man:*:18186:0:99999:7:::
+lp:*:18186:0:99999:7:::
+mail:*:18186:0:99999:7:::
+news:*:18186:0:99999:7:::
+uucp:*:18186:0:99999:7:::
+proxy:*:18186:0:99999:7:::
+www-data:*:18186:0:99999:7:::
+backup:*:18186:0:99999:7:::
+list:*:18186:0:99999:7:::
+irc:*:18186:0:99999:7:::
+gnats:*:18186:0:99999:7:::
+nobody:*:18186:0:99999:7:::
+systemd-timesync:*:18186:0:99999:7:::
+systemd-network:*:18186:0:99999:7:::
+systemd-resolve:*:18186:0:99999:7:::
+messagebus:*:18186:0:99999:7:::
+syslog:*:18186:0:99999:7:::
+_apt:*:18186:0:99999:7:::
+uuidd:*:18186:0:99999:7:::
+tcpdump:*:18186:0:99999:7:::
+avahi-autoipd:*:18186:0:99999:7:::
+usbmux:*:18186:0:99999:7:::
+rtkit:*:18186:0:99999:7:::
+dnsmasq:*:18186:0:99999:7:::
+cups-pk-helper:*:18186:0:99999:7:::
+speech-dispatcher:!:18186:0:99999:7:::
+kernoops:*:18186:0:99999:7:::
+avahi:*:18186:0:99999:7:::
+saned:*:18186:0:99999:7:::
+nm-openvpn:*:18186:0:99999:7:::
+whoopsie:*:18186:0:99999:7:::
+colord:*:18186:0:99999:7:::
+hplip:*:18186:0:99999:7:::
+geoclue:*:18186:0:99999:7:::
+pulse:*:18186:0:99999:7:::
+gnome-initial-setup:*:18186:0:99999:7:::
+gdm:*:18186:0:99999:7:::
+mark:$6$yI04mUorf3N77d7a$S4XkaFSR2mcfXTGULrxMIzOsmFjwvScRhb5iS5cEybNdSXjh/l2iFA7VwGGX.dQe6PYrpMVqsGlJvPILWiTed.:18321:0:99999:7:::
+systemd-coredump:!!:18321::::::
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ claer
+
+Команда «claer» не найдена. Возможно, вы имели в виду:
+
+  command 'clear' from deb ncurses-bin (6.1+20190803-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userd=[K[Kadd[K[K[K[K[K[K[K[K[K[K[K[Ksu root
+Пароль: 
+]0;root@mark-VirtualBox: /etcroot@mark-VirtualBox:/etc# cd la[K[Kla[K[K[K[K[Kcd lab2
+bash: cd: lab2: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /etcroot@mark-VirtualBox:/etc# cd /lab2
+bash: cd: /lab2: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /etcroot@mark-VirtualBox:/etc# cd /lab2[K[K[K[KLab2
+bash: cd: /Lab2: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /etcroot@mark-VirtualBox:/etc# cd /Lab2lab2[1Plab2[K3
+bash: cd: lab3: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /etcroot@mark-VirtualBox:/etc# exit
+exit
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ 1[Ksu root[2Pclearaer[K[K[K[K[Kcd lab3
+bash: cd: lab3: Нет такого файла или каталога
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ cd--
+cd--: команда не найдена
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ cd ---[K
+]0;mark@mark-VirtualBox: ~[01;32mmark@mark-VirtualBox[00m:[01;34m~[00m$ cd lab3
+]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ su root
+Пароль: 
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# useradd -o -u 2000 -d /home/nouser -s /sbi n/nologin -G user, mail stes[K[K[K[K[K[K[K[K[K[Kma[K[K [Kmail tset[K[K[Kese1[K[Kt1
+useradd: группа «user» не существует
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd user
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd user[K[K[K[Kmail
+groupadd: группа «mail» уже существует
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd mailuseruseradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# s[Kuserd[Kadd test2
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -l test3 -d /home/test3 -m test[Kt2
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# s[Kuserdel -r tets[K[K[Kest3
+userdel: почтовый ящик test3 (/var/mail/test3) не найден
+userdel: домашний каталог пользователя test3 (/home/test3) не найден
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# userdel test3
+userdel: пользователь «test3» не существует
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# claer[K[Ke[K[Kear
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# cd ets
+bash: cd: ets: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# cd ets[Kc
+bash: cd: etc: Нет такого файла или каталога
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# su [K[K[Kexit
+exit
+]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ cd /etc
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ claer
+
+Команда «claer» не найдена. Возможно, вы имели в виду:
+
+  command 'clear' from deb ncurses-bin (6.1+20190803-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/niuser[K[K[K[K[Kouser -s /sbin/nolo gin -G user, [Kmail tste[K[K[Kest1
+useradd: пользователь «test1» уже существует
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sid[K[Kudo y[Kuserdel test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ claer
+
+Команда «claer» не найдена. Возможно, вы имели в виду:
+
+  command 'clear' from deb ncurses-bin (6.1+20190803-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clearaersudo userdel test1add -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo group [Kadd user
+groupadd: группа «user» уже существует
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ c;[Klae[K[Kear[K[K[K[K[Kuser[K[K[K[Ksudo user [Kdel test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clearsudo userdel test1groupadd useruseradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo seradd [K[K[K[K[K[K[Kuseradd test2
+useradd: группа test2 существует — для добавления в неё этого пользователя, используйте -g.
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo groupdel test2
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clae[K[K[K[Ksudo userdel test3
+userdel: пользователь «test3» не существует
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userdel test3groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ cla[Kear
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ s[Kclearsudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userm[Kmode -l test3 -d /home/test3 -m yesy[K[K[K[Ktest3[K2
+sudo: usermode: команда не найдена
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo usermode -l test3 -d /home/test3 -m test2[1P
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo usermp[Kode[K[K[K[Ke[Kdel -r tets[K[Kst3
+userdel: почтовый ящик test3 (/var/mai
