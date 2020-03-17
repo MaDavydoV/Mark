@@ -32,7 +32,8 @@ chage: пользователь «friend» не существует в /etc/pas
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
 [H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clearhage -E 2020-08-14 friend[1PriendFriend
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# claer\\\[K[K[K[K[K[Kear
-[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# chfn -f MA[Karakesh[K[K[K[K[Kkushka -r 69 -w 666-666-[K[K[K[K[K-66-66 -h 22 8-28[K2[K[K328-13 -o friend
+[H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# chfn -f MA[Karakesh[K[K[K[K[Kkushka -r 69 -w 666-666-[K[K[K[K[K-66-66 -h 22 
+8-28[K2[K[K328-13 -o friend
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# clear
 [H[2J[3J]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -l guest Friend
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# usermod -d /home/guest guest
@@ -145,7 +146,8 @@ cd--: команда не найдена
 ]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ clear
 [H[2J[3J]0;mark@mark-VirtualBox: ~/lab3[01;32mmark@mark-VirtualBox[00m:[01;34m~/lab3[00m$ su root
 Пароль: 
-]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# useradd -o -u 2000 -d /home/nouser -s /sbi n/nologin -G user, mail stes[K[K[K[K[K[K[K[K[K[Kma[K[K [Kmail tset[K[K[Kese1[K[Kt1
+]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# useradd -o -u 2000 -d /home/nouser -s /sbi 
+n/nologin -G user, mail stes[K[K[K[K[K[K[K[K[K[Kma[K[K [Kmail tset[K[K[Kese1[K[Kt1
 useradd: группа «user» не существует
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd user
 ]0;root@mark-VirtualBox: /home/mark/lab3root@mark-VirtualBox:/home/mark/lab3# groupadd user[K[K[K[Kmail
@@ -175,7 +177,8 @@ exit
 Try: sudo apt install <deb name>
 
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear
-[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/niuser[K[K[K[K[Kouser -s /sbin/nolo gin -G user, [Kmail tste[K[K[Kest1
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/niuser[K[K[K[K[Kouser -s /sbin/nolo 
+gin -G user, [Kmail tste[K[K[Kest1
 useradd: пользователь «test1» уже существует
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sid[K[Kudo y[Kuserdel test1
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ claer
@@ -198,13 +201,19 @@ useradd: группа test2 существует — для добавления
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo groupdel test2
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clae[K[K[K[Ksudo userdel test3
 userdel: пользователь «test3» не существует
-]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userdel test3groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userdel test3groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test1
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ cla[Kear
-[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ s[Kclearsudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
-]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C
+[H[2J[3J]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ s[Kclearsudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C-o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo useradd -o -u 2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A
+]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ clear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel test13groupdel test2[1Puseradd[C[C[C[C[C[C
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo userm[Kmode -l test3 -d /home/test3 -m yesy[K[K[K[Ktest3[K2
 sudo: usermode: команда не найдена
 ]0;mark@mark-VirtualBox: /etc[01;32mmark@mark-VirtualBox[00m:[01;34m/etc[00m$ sudo usermode -l test3 -d /home/test3 -m test2
